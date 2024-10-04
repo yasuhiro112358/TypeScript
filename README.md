@@ -31,6 +31,7 @@ node dist/index.js # Run the compiled JavaScript file
 ```
 
 ```bash
-npx tsc --watch # Watch the TypeScript files and compile them automatically
+npm install --save-dev tsc-alias # Install the TypeScript alias package
+npx tsc --watch --noEmitOnError # Watch the TypeScript files
 ```
 
